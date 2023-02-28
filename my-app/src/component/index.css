@@ -3,49 +3,46 @@
       justify-content: space-around;
       list-style-type: none;
       padding: 0;
-    }
-    .list-img li{
-        position: relative;
-        overflow: hidden;
-    }
-        .list-img li::after{
-        content: '';
-        position: absolute;
-    }
-    
-
-    .list-img li:nth-child(1){
-        overflow: hidden;
-        display: flex;
-        animation: 2s linear  fadeIn;
-
-    }
-    .list-img li:nth-child(1n +2){
-        overflow: hidden;
-        animation: 4s linear  fadeIn;
-    }
-    .list-img li:nth-child(1n +3){
-        overflow: hidden;
-        animation: 6s linear  fadeIn;
-    }
-
-    .list-img li img {
-        object-fit: cover;
-        height: 550px;
-        width: 450px;
-
+}
+.list-img li {
+      position: relative;
+      overflow: hidden;
+}
+.list-img li::after {
+      content: '';
+      position: absolute;
 }
 
-h1{
-    color: white;
+.list-img li:nth-child(1) {
+      overflow: hidden;
+      display: flex;
+      animation: 2s linear fadeIn;
+}
+.list-img li:nth-child(1n + 2) {
+      overflow: hidden;
+      animation: 4s linear fadeIn;
+}
+.list-img li:nth-child(1n + 3) {
+      overflow: hidden;
+      animation: 6s linear fadeIn;
+}
+
+.list-img li img {
+      object-fit: cover;
+      height: 550px;
+      width: 450px;
+}
+
+h1 {
+      color: white;
 }
 
 @keyframes fadeIn {
-    0% {
-        transform: translateY(100%);
-    }
-    
-    100% {
-        transform: translateY(0%);
-    }
+      0% {
+            transform: translateY(100%);
+      }
+
+      100% {
+            transform: translateY(0%);
+      }
 }
