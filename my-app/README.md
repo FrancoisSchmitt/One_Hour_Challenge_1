@@ -14,3 +14,6 @@ The objective is to make a reproduction in 1 hour, an improvement will be made o
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+####
+![alt text](./timedTime.png)
