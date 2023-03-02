@@ -5,10 +5,8 @@ import './index.css';
 export default function home() {
       return (
             <>
-                  <h1>
-                        <span>NEW COLLECTION</span>
-                        METROPOLIS SERIES
-                  </h1>
+                  <h1 className="title">NEW COLLECTION</h1>
+                  <h2> METROPOLIS SERIES</h2>
 
                   <ul className="list-img">
                         <li>

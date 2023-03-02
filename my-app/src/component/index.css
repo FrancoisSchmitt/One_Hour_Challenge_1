@@ -33,13 +33,30 @@
       width: 450px;
 }
 
-h1 {
+.title,
+h2 {
       color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      text-transform: uppercase;
+      font-weight: bold;
+      animation: fadeInTitle 4s linear;
+      font-size: 40px;
+      margin-top: 3%;
+      margin: 0;
+}
+h2 {
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke-width: 2px;
 }
 
 @keyframes fadeIn {
       0% {
-            transform: translateY(100%);
+            transform: translateY(200%);
       }
 
       100% {

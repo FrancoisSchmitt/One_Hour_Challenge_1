@@ -1,38 +1,55 @@
-nav {
-      display: flex;
+.navbar {
       width: 100%;
-      align-items: baseline;
+}
+
+.navbar-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       color: white;
+      padding-right: 3rem;
       animation: fadeInNavbar 4s linear;
+      padding-left: 3rem;
 }
-nav ul {
-      list-style-type: none;
-}
-nav ul li {
-      font-weight: 600;
-      text-transform: uppercase;
-}
-
-nav ul:nth-child(1) {
+.navbar ul {
       display: flex;
       justify-content: space-around;
-      width: 30%;
+        gap: 0.5rem;
+            font-weight: 700;
+            padding: 0;
 }
-nav ul:nth-child(0n + 3) {
-      display: flex;
-      text-align: right;
-      justify-content: space-around;
-      width: 30%;
-}
-
-h1 {
+.navbar div h1 {
       display: flex;
       flex-direction: column;
+      text-align: center;
+}
+.navbar div {
       align-items: center;
-      justify-content: center;
-      margin-left: auto;
-      margin-right: auto;
+      width: 25%;
+      display: flex;
+}
+
+.navbar ul li {
       text-transform: uppercase;
-      font-weight: bold;
-      animation: fadeInTitle 4s linear;
+    list-style-type: none;
+}
+
+@keyframes fadeInNavbar {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes fadeInTitle {
+    0% {
+        transform: translateY(200%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
 }
