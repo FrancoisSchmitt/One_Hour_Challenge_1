@@ -9,7 +9,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Practice</h3>
+  <h3 align="center">One Hour Challenge</h3>
 
   <p align="center">Reproduction in 1 hour with correction if lack of time </p>
   <br>
@@ -42,7 +42,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
+![Product Name Screen Shot][product-screenshot]
 
 The objective is to develop something in 1 hour if it is not achieved a correction will be made on a different branch. 
 
